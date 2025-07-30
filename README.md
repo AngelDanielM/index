@@ -21,21 +21,17 @@
                                 <li> <a href="Servicios.html">Servicios </a> </li>
                                 <li> <a href="Portafolio.html">Portafolio</a> </li>
                                 <li> <a href="Contacto.html">Contactos</a> </li>
-
                             </ul>
                         </Nav>
-
                     <!--iconos de menu-->
                         <div id="icono-nav">
                             <i></i>
-                        </div>
-                        
+                        </div>        
                         <!--icono de redes-->
                         <div class="redes">
                             <a href="#">Youtube<i></i></a>
                             <a href="#">facebook<i></i></a>
                             <a href="#">instagram<i></i></a>
-
                         </div>
                 </div>
             </header>
@@ -48,6 +44,25 @@
             </div>
         </div>
     </section>
+<section id="sobreMi">
+    <div class="contenido-foto">
+        <img src="IMG_20240208_200540.jpg" alt="">
+    </div>
+<div class="sobreMi"> 
+    <p class="Titulo-seccion">Quien soy?</p>
+    <h2>Soy estudiante de OYM, cursando en este momento <span>la materia de TECNOLOGIA Y SERVICIOS DE INTERNET</span></h2>
+    <h3>desarrollando la programacion web</h3>
+    <p>siendo un gran aporte para aprender sobre la programacion, el diseño, la estructura y la composicion para el funcionamiento sobre el internet y el organismo que lo organisa</p>
+</div>
+</section>
+
+</body>
+		<footer class="footer">
+			<div class="footer_contenido ">
+				<h2>Hecho por Angel Mota</h2>
+				<h5>2025</h5>
+			</div>
+		</footer>
 
 
 </html>
