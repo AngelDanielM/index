@@ -1,0 +1,500 @@
+
+@import url('package:google_fonts/google_fonts.dart');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio{
+    background: linear-gradient(rgb(73, 219, 255), rgb(0, 0, 158));
+    background-size: cover;
+    background-position: center center;
+    height: 100vh; 
+}
+
+#inicio .contenido header{
+    background-color: rgb(0, 45, 97);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#inicio .contenido header .contenido-header{
+max-width: 1100px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+}
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color: darkblue;
+}
+#inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: #8bb0ff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5%;
+}
+
+#inicio .contenido header .contenido-header nav ul a:hover{
+    color: rgb(73, 219, 255);
+
+}
+#inicio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: #a4c6f1;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5%;
+}
+
+#inicio .contenido header .contenido-header .redes a:hover {
+    color: rgb(73, 219, 255)
+}
+
+#inicio .contenido .presentacion {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    columns: #a4c6f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio .contenido .presentacion .bienvenida{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#inicio .contenido .presentacion h2{
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span{
+    font-size: 25px;
+    color:darkblue;
+}
+
+#inicio .contenido .presentacion .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #a4c6f1;
+    border-radius: 50px;
+    color: #a4c6f1;
+    font-weight: bold;
+    text-decoration: uppercase;
+    transition: .5px;
+}
+
+#inicio .contenido .presentacion a:hover{
+    background-color: aqua;
+}
+#inono-nav{
+    color:#a4c6f1;
+    display: none;
+}
+#sobreMi{
+    max-width:1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color:rgb(0, 0, 158) ;
+    display: flex;
+}
+#sobreMi .contenido-foto{
+    max-width: 400px;
+    margin-right: 80px;
+}
+#sobreMi .contenido-foto img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color:#a4c6f1 ;
+}
+
+#sobreMi .sobreMi{
+    margin: 0 40px;
+}
+
+#sobreMi .sobreMi .Titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-color:#8bb0ff;
+    text-decoration-thickness: 5px;
+
+}
+
+#sobreMi .sobreMi h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobreMi .sobreMi h2 span {
+    color: aqua;
+}
+
+#sobreMi .sobreMi h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#sobreMi .sobreMi p{
+    font-size: 14px;
+    line-height: 25px;
+    color:rgb(0, 45, 97);
+    margin-bottom: 12px;
+}
+.footer{
+    background-color: rgb(0, 45, 97);
+	width:  1,440px;
+	height:  102px;
+	padding: 32px;
+	gap: 10px
+ 
+}
+
+.footer_contenido h2 {
+    color: #8bb0ff;
+	font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.footer_contenido h5{
+    color: #8bb0ff;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: center;
+	
+}
+
+
+.seccion-Contacto{
+	background-color: #EAF2FD;
+}
+
+.encabezado-Contacto h2{
+	font-size: 2em;
+	font-weight: bold;
+	color: #464646;
+
+}
+
+.contenido-contacto{
+	padding: 3em;
+	margin: 0 auto;
+}
+
+.contenido-contacto img {
+	width: 750px;
+	height: 700px;
+	bottom: 0;
+}
+
+.form-control{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin-top: 2em;
+}
+
+.form-control input {
+	padding: 10px 20px;
+	margin-bottom: 1em;
+	background: #FFFFFF;
+	border: none;
+	border-bottom: 1px solid grey;
+	border-radius: 5px;
+	width: 632px;
+	height: 40px;
+}
+
+.form-control textarea {
+	width: 656px;
+	height: 133px;
+	border: none;
+	border-bottom: 1px solid grey;
+	border-radius: 5px;
+
+}
+
+.btn-submit {
+	padding: 10px 20px;
+	margin: 1em;
+	border: none;
+	background-color: #2A7AE4;
+	color: #fff;
+	cursor: pointer;
+	width: 144px;
+	height: 51px;
+	padding: 16px;
+}
+
+.btn-submit:hover{
+	background-color: #2A7A;
+}
+.portafolio{
+	width: 100vw;
+	height: 120vh;
+	background-color: #F5F5F5;
+
+}
+
+.bloque-encabezado{
+	/*
+	display: flex;
+	flex-direction: column;
+	justify-content: center;*/
+	padding: 2em;
+}
+
+.bloque-encabezado h2{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2.5em;
+}
+
+.bloque-titulo h2{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2.5em;
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2em;
+
+}
+
+.skills-links{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.skills-links a{
+	color: #2a7AE4;;
+	text-decoration: none;
+	background-color: #fff;
+	width: 176px;
+	height: 174px;
+	padding: 16px;
+	text-align: center;
+}
+
+.skills-links i{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.skills-links span{
+	color:#464646;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 0em;
+	display: flex;
+	flex-direction: column;
+
+}
+
+/*
+.portafolio .skills{
+	width: 5vw;
+	height: 5vw;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+*/
+.bloque-titular h2{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.experiencia{
+	background-color: #F5F5F5;
+	display: flex;
+	width: Fill 1,440px;
+	height: 581px;
+	padding: 82px;
+	gap: 32px;
+	flex-direction: column;
+}
+
+.experiencia h2{
+	text-align: center;
+	font-weight: bold;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+}
+
+.experiencia-Encriptador{
+	display: flex;
+}
+
+.experiencia-Encriptador img{
+	display: flex;
+	width: 752px;
+height: 406px;
+margin-right: 4em;
+
+}
+
+.experiencia-Encriptador-contenido{
+	margin-top: 5em;
+}
+
+.experiencia-Encriptador-contenido h3{
+	font-weight: bolder;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.experiencia-Encriptador-contenido a{
+	text-decoration: none;
+font-size: 16px;
+font-weight: 500px;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #464646;
+
+}
+
+.experiencia-Encriptador-botton{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 2em;
+
+}
+
+.botton-uno{
+	padding: 10px 20px;
+	margin: 1em;
+	border-color: #2A7AE4;
+	background-color: none;
+	color: #2A7AE4;
+	cursor: pointer;
+	width: 144px;
+	height: 51px;
+	padding: 16px;
+
+}
+
+.botton-dos{
+	padding: 10px 20px;
+	margin: 1em;
+	border: none;
+	background-color: #2A7AE4;
+	color: #fff;
+	cursor: pointer;
+	width: 144px;
+	height: 51px;
+	padding: 16px;
+}
+.bloque-titular h2{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.hobbie-links{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.hobbie-links a {
+	color: #2a7AE4;
+	text-decoration: none;
+	background-color: #fff;
+	text-align: center;
+	
+	width: 176px;
+	height: 174px;
+	padding: 16px;
+
+}
+
+.hobbie-links i {
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.hobbie-links span{
+	color:#464646;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	flex-direction: column;
+	
+}
