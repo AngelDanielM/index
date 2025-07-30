@@ -40,7 +40,7 @@
                 <h2>Soy <span>Angel Mota</span> Estudiante</h2>
                 <p class="descripcion"> "Muy buenas a todos mi nombre es angel Daniel mota Polanco y este es mi portafolio digital, 
                     vivo en la romana de la provincia del mismo nombre siendo estudiante de la universidad OYM, y en este portafolio les hablare sobre mi" </p>
-                <a href="#portafolio">Ir a portafolio</a>
+                <a href="Portafolio.html">Ir a portafolio</a>
             </div>
         </div>
     </section>
